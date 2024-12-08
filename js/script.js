@@ -14,3 +14,9 @@ const GameBoard = (() =>{
     };
     return {getBoard, updateBoard, resetBoard};
 })();
+
+// player Factory function
+
+const player = (name , marker) =>{
+    return{name, marker};
+}
